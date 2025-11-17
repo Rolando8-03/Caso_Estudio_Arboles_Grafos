@@ -1,11 +1,11 @@
-#Caso de Estudio: Árboles y Grafos en C#
+# Caso de Estudio: Árboles y Grafos en C#
 Universidad Americana (UAM)
 
 Asignatura: Programación Estructurada
 Docente: MSc. José Alejandro Durán García
 Estudiante: Rolando Enrique Mayorga Mena
 
-#🏢 Sistema Jerárquico y de Rutas para el Parque Tecnológico “Innovatec”
+# 🏢 Sistema Jerárquico y de Rutas para el Parque Tecnológico “Innovatec”
 
 Este proyecto desarrolla un sistema completo en C# con Windows Forms que permite gestionar:
 
@@ -15,7 +15,7 @@ Las rutas internas entre edificios mediante un grafo no dirigido y ponderado, in
 
 El programa cumple con todos los requerimientos establecidos en el Caso de Estudio: Árboles y Grafos de la Universidad Americana.
 
-#📂 Estructura del Proyecto
+# 📂 Estructura del Proyecto
 
 El código está organizado de la siguiente manera:
 
@@ -25,7 +25,7 @@ GrafoController.cs	Manejo del Grafo: edificios, conexiones, distancias y Dijkstr
 Form1.cs	Interfaz gráfica y conexión con los controladores.
 Program.cs	Punto de ejecución del programa.
 
-#🌳 Parte A — Árbol: Jerarquía Organizativa del Parque
+## 🌳 Parte A — Árbol: Jerarquía Organizativa del Parque
 
 El árbol permite modelar la estructura organizativa de Innovatec: áreas, departamentos, oficinas, secciones, etc.
 
@@ -78,7 +78,7 @@ Representa el número de “ramas” del árbol.
 
 Útil para reportes y validaciones.
 
-#🕸️ Parte B — Grafo: Sistema de Rutas del Parque
+## 🕸️ Parte B — Grafo: Sistema de Rutas del Parque
 
 El grafo representa edificios y caminos internos con sus respectivas distancias.
 
@@ -134,7 +134,7 @@ Relajación de aristas.
 
 Reconstrucción del camino mínimo.
 
-#🖥️ Interfaz Gráfica del Usuario (Windows Forms)
+# 🖥️ Interfaz Gráfica del Usuario (Windows Forms)
 ✔️ Módulo Árbol
 
 Agregar elementos.
