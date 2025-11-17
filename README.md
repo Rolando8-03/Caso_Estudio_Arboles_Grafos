@@ -2,7 +2,9 @@
 Universidad Americana (UAM)
 
 Asignatura: Programación Estructurada
+
 Docente: MSc. José Alejandro Durán García
+
 Estudiante: Rolando Enrique Mayorga Mena
 
 # 🏢 Sistema Jerárquico y de Rutas para el Parque Tecnológico “Innovatec”
@@ -20,9 +22,13 @@ El programa cumple con todos los requerimientos establecidos en el Caso de Estud
 El código está organizado de la siguiente manera:
 
 Archivo	Descripción
+
 ArbolController.cs	Manejo del Árbol: insertar, buscar, eliminar, contar y recorrer nodos.
+
 GrafoController.cs	Manejo del Grafo: edificios, conexiones, distancias y Dijkstra.
+
 Form1.cs	Interfaz gráfica y conexión con los controladores.
+
 Program.cs	Punto de ejecución del programa.
 
 ## 🌳 Parte A — Árbol: Jerarquía Organizativa del Parque
@@ -30,6 +36,7 @@ Program.cs	Punto de ejecución del programa.
 El árbol permite modelar la estructura organizativa de Innovatec: áreas, departamentos, oficinas, secciones, etc.
 
 ✔️ Funcionalidades del Árbol
+
 🔹 Inserción de Nodos
 
 El primer nodo añadido se convierte en la raíz.
@@ -83,6 +90,7 @@ Representa el número de “ramas” del árbol.
 El grafo representa edificios y caminos internos con sus respectivas distancias.
 
 ✔️ Representación Interna: Lista de Adyacencia
+
 Dictionary<string, Dictionary<string, double>>
 
 Donde:
@@ -124,6 +132,7 @@ Lista todas las conexiones sin duplicados (A–B se muestra solo una vez).
 ✔️ Algoritmo de Ruta Más Corta — Dijkstra
 
 Implementado completamente desde cero.
+
 Incluye:
 
 Inicialización de distancias.
