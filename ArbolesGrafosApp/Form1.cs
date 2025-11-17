@@ -16,5 +16,15 @@ namespace ArbolesGrafosApp
         {
             InitializeComponent();
         }
+
+        private void cbRecorrer_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAgregarElemento_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
